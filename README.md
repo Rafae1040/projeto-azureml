@@ -52,23 +52,24 @@ Na seção "Autor" > "Notebooks"
 
 👩💻 Código do modelo (exemplo com Random Forest):
 
-# 📚 Importações
+´´´python
+📚 Importações
 from azureml.core import Workspace, Experiment
 from sklearn.ensemble import RandomForestRegressor
 import joblib
 
-# 🔌 Conecta ao workspace
+ 🔌 Conecta ao workspace
 ws = Workspace.from_config()
 experiment = Experiment(ws, 'experimento-previsao')
 
-# [🔡 Seu código de preparação de dados aqui]
+[🔡 Seu código de preparação de dados aqui]
 
-# 🏋️ Treina o modelo
+🏋️ Treina o modelo
 model = RandomForestRegressor(n_estimators=100)
 model.fit(X_train, y_train)
 
-# 💾 Salva o modelo
+💾 Salva o modelo
 joblib.dump(model, 'outputs/model.pkl')
-
+´´´python 
 
 
