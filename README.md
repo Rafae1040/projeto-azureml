@@ -1,5 +1,4 @@
-# Laboratório: Modelo de Previsão no Azure Machine Learning
-
+# Modelo de Previsão no Azure Machine Learning
 
 ## 🌐 Visão Geral
 Este projeto implementa um modelo de aprendizado de máquina na nuvem do Azure, desde a criação do workspace até a implantação de um endpoint para consumo via API. O modelo utiliza o Azure Machine Learning Studio para todo o fluxo de trabalho.
