@@ -70,6 +70,7 @@ model.fit(X_train, y_train)
 
 💾 Salva o modelo
 joblib.dump(model, 'outputs/model.pkl')
-```python
+```
+
 
 
