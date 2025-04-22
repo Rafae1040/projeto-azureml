@@ -52,7 +52,7 @@ Na seção "Autor" > "Notebooks"
 
 👩💻 Código do modelo (exemplo com Random Forest):
 
-´´´python
+```python
 📚 Importações
 from azureml.core import Workspace, Experiment
 from sklearn.ensemble import RandomForestRegressor
@@ -70,6 +70,6 @@ model.fit(X_train, y_train)
 
 💾 Salva o modelo
 joblib.dump(model, 'outputs/model.pkl')
-´´´python 
+```python
 
 
